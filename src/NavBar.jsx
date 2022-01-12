@@ -27,24 +27,24 @@ class NavBar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <link to="/" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Login
-                  </link>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <link to="/dashboard" className="nav-link">
+                  <Link to="/dashboard" className="nav-link">
                     DashBoard
-                  </link>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <link to="/customers" className="nav-link">
+                  <Link to="/customers" className="nav-link">
                     Customers
-                  </link>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <link to="/cart" className="nav-link">
+                  <Link to="/cart" className="nav-link">
                     Shopping cart
-                  </link>
+                  </Link>
                 </li>
               </ul>
             </div>
